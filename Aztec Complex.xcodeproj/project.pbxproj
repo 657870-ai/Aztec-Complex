@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C89FABCF27094AA700E56B2D /* Aztec Complex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Aztec Complex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89FABD227094AA700E56B2D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C89FABDA27094AB600E56B2D /* DAT.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DAT.rb; path = "../Mac Address Protocol Reformulation/Mac Address Protocol Reformulation/DAT.rb"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		C89FABC627094AA600E56B2D = {
 			isa = PBXGroup;
 			children = (
+				C89FABDA27094AB600E56B2D /* DAT.rb */,
 				C89FABD127094AA700E56B2D /* Aztec Complex */,
 				C89FABD027094AA700E56B2D /* Products */,
 			);
@@ -240,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
